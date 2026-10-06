@@ -596,6 +596,24 @@ local function load_fresh_data()
     end
   end
 
+  -- No data.json yet -- a genuinely fresh install, never run before. Seed
+  -- categories from the bundled factory defaults rather than starting
+  -- empty, or Quick Nav has nothing to show and Auto-Sort has nothing to
+  -- match against (every script would land in "remain unsorted"). scripts
+  -- stays empty regardless -- merge_discovered_scripts() (called right
+  -- after this) populates it fresh from what's actually installed.
+  local factory_path = norns.state.path .. 'factory_data.json'
+  if util.file_exists(factory_path) then
+    local file = io.open(factory_path, 'rb')
+    local content = file:read('*all')
+    file:close()
+
+    local ok, decoded = pcall(json.decode, content)
+    if ok and decoded then
+      return decoded.categories or {}, {}, nil, false
+    end
+  end
+
   return {}, {}, nil, false
 end
 
