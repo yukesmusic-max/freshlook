@@ -1,0 +1,34 @@
+# REPLACE HOME SCREEN -- editable slide content for Functions > Replace
+# Home Screen. Same "## slide" format as tutorial_content.txt (see that
+# file's own header for the full format reference) -- a quick summary:
+#
+#   k2_label: <text>   k3_label: <text>   k2: <action>   k3: <action>
+#   no_k2: true
+#
+# Actions: next, back, end (return to Functions), replace_home (runs the
+# actual move-to-top + generate-blanks action, then advances).
+
+## slide
+This function will put freshlook at the top of your script list.
+
+## slide
+It will also generate 10 blank scripts beneath it, so that freshlook is
+the only visible script when you boot.
+
+## slide
+Your default browser, then, will look like this:
+
+## slide
+freshlook
+
+## slide
+k2_label: No
+k2: end
+k3_label: Yes
+k3: replace_home
+Would you like to proceed?
+
+## slide
+k3_label: Finish
+k3: end
+done. consider restarting norns and seeing how it looks.

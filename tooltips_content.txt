@@ -1,0 +1,355 @@
+# FRESHLOOK TOOL TIPS -- wired in via "Enable Tool Tips" (View).
+#
+# One entry per row in Settings > View and Settings > Functions, in the
+# order they currently appear. Each entry is either a tool tip (the same
+# "## slide" format as tutorial_content.txt) or NO TOOL TIP for a row that
+# doesn't get one. Entries are separated by a line of "=" characters.
+#
+# A tool tip fires right after you flip a toggle (E2) or select an action
+# (K3) in Settings -- its own final slide's K2/K3 is what actually commits
+# the change (see k2:/k3: below); declining just leaves the row as it was.
+#
+# Besides tutorial_content.txt's own k2:/k3: actions (next, skip_next,
+# back, end, disable_quicknav, alphabetize, autosort, replace_home), these
+# two are tool-tip-only:
+#   enable / disable   -- sets *this row's own* option to yes/no
+#   backup             -- runs Backup Organization, shows the real filename
+# `end` on a tool tip means "leave this row as it was" (same as K1 long).
+#
+# DEFAULT lines record what the row ships at today, matching the actual
+# param default in the code -- these are what this document is meant to
+# let you configure later. If a user has already changed a toggle away
+# from its default, that choice always wins; DEFAULT only governs what a
+# fresh install (or a reset one) starts at.
+#
+# "Enable Tool Tips" (View) is the master switch for this whole system --
+# listed first below since it's the first row after View's separator.
+
+================================================================================
+
+> TOOL TIP: View > Enable Tool Tips
+NO TOOL TIP -- this is the on/off switch for the tool tip system itself;
+showing a tool tip to explain the tool tips would be a little silly, and
+anyone turning it off already knows what it does.
+DEFAULT : YES
+
+================================================================================
+
+> TOOL TIP: View > View Mode
+NO TOOL TIP -- this is a 3-way cycle (Compact / Expanded / Linear), not an
+enable/disable toggle, so the K2-disable/K3-enable tool tip shape doesn't
+apply. If View Mode ever gets its own explainer, it'll need a different
+format than the rest of these.
+DEFAULT : Compact
+
+================================================================================
+
+> TOOL TIP: View > Show Descriptions
+DEFAULT : YES
+
+## slide
+
+This will show the script info next to the script title.
+
+## slide
+
+Disabling it will make the browser feel cleaner.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should descriptions appear?
+
+================================================================================
+
+> TOOL TIP: View > Favorites Before Full List
+DEFAULT : NO
+
+## slide
+
+When enabled, your favorites are gathered into their own section between
+Quick Nav and the Full List.
+
+## slide
+
+They will still appear in their subcategories.
+
+## slide
+
+When disabled, favorites just stay wherever they'd normally sort.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should favorites get their own section before the full list?
+
+================================================================================
+
+> TOOL TIP: View > Show Instructions
+DEFAULT : YES
+
+## slide
+
+This keeps a short reminder of the controls at the very top of the list.
+
+## slide
+
+Once you know your way around, you probably don't need it. Disabling it
+starts the list right at Quick Nav instead.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should the instructions stay at the top of the list?
+
+================================================================================
+
+> TOOL TIP: View > Quick Nav
+DEFAULT : ON
+
+## slide
+
+Quick Nav is the jump-to-category menu that sits above the full list.
+
+## slide
+
+Turning it off skips straight to the full list every time you boot.
+
+## slide
+
+nothing is lost, categories still work, you just navigate by scrolling.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should Quick Nav be shown?
+
+================================================================================
+
+> TOOL TIP: View > Hide Empty Categories
+DEFAULT : YES
+
+## slide
+
+By default, a category or subcategory with nothing in it stays
+hidden from Quick Nav.
+
+## slide
+
+Disabling this shows every category that exists, even the empty ones.
+Useful while you're still sorting scripts.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should empty categories stay hidden?
+
+================================================================================
+
+> TOOL TIP: View > Show Quick Nav Count
+DEFAULT : YES
+
+## slide
+
+This shows how many scripts (and favorites) are in each category, right
+next to its name in Quick Nav.
+
+## slide
+
+Disabling it removes the numbers. An empty category will instead say
+[empty].
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should Quick Nav show script counts?
+
+================================================================================
+
+> TOOL TIP: View > Full List After Nav
+DEFAULT : YES
+
+## slide
+
+This lets you keep scrolling with E3 straight past Quick Nav into the
+full list below it.
+
+## slide
+
+Disabling it means the full list can only be reached by clicking into a
+Quick Nav category.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should scrolling reach the full list after Quick Nav?
+
+================================================================================
+
+> TOOL TIP: View > Favorites Folder in Quick Nav
+DEFAULT : NO
+
+## slide
+
+This adds a *Favorites folder to the top of Quick Nav, so you can jump
+straight to your favorited scripts.
+
+## slide
+
+Disabling it removes that folder. Your favorites still work, they're
+just not given their own Quick Nav entry.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should Quick Nav include a favorites folder?
+
+================================================================================
+
+> TOOL TIP: Functions > Script Info on Load
+DEFAULT : NO
+
+## slide
+
+When using the typical browser, you'll see the script's info before it
+loads.
+
+## slide
+
+freshlook has this disabled by default, launching straight into the
+script.
+
+## slide
+
+enabling this will mimic the typical browser's behavior.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should freshlook confirm before loading a script?
+
+================================================================================
+
+> TOOL TIP: Functions > Favorites at Top (of subcategory)
+DEFAULT : YES
+
+## slide
+
+freshlook puts your favorites at the top of each category by default.
+
+## slide
+
+Disabling it leaves favorites in their normal alphabetical place, but
+still with a *.
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Should favorites float to the top of their subcategory?
+
+================================================================================
+
+> TOOL TIP: Functions > Alphabetize Favorites
+
+## slide
+
+When using the default browser, your favorites are listed in the order
+you added them.
+
+## slide
+
+This script will alphabetize them instead. This doesn't affect fresh
+look.
+
+## slide
+k2_label: No
+k2: end
+k3_label: Alphabetize
+k3: alphabetize
+Would you like to alphabetize your favorites?
+
+================================================================================
+
+> TOOL TIP: Functions > Backup Organization
+
+## slide
+
+This will create a backup of your organization as it is now.
+
+## slide
+
+This is helpful if you wish to experiment with a new organization system.
+
+## slide
+k2_label: No
+k2: end
+k3_label: Create Backup
+k3: backup
+Would you like to create a backup?
+
+================================================================================
+
+> TOOL TIP: Functions > Replace Home Screen
+
+## slide
+
+This will put freshlook at the top of your script list.
+
+## slide
+
+Your script selection would look like this:
+
+## slide
+align: left
+* freshlook
+
+*
+
+*
+
+*
+
+*
+
+## slide
+k2_label: No
+k2: skip_next
+k3_label: Yes
+k3: replace_home
+Would you like to move freshlook to the top of your list now?
+
+## slide
+
+Done. Feel free to check your browser. Scroll all the way up.
+
+================================================================================
+
+> TOOL TIP: Functions > Show Tutorial
+DEFAULT : YES
+
+## slide
+k2_label: Disable
+k2: disable
+k3_label: Enable
+k3: enable
+Do you wish to view the tutorial again?

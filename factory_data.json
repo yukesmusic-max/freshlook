@@ -1,0 +1,95 @@
+{
+  "categories": {
+    "composition": [
+      "scales",
+      "chords",
+      "arrangement",
+      "accompany",
+      "other"
+    ],
+    "ecosystem": [
+      "grid",
+      "arc",
+      "crow",
+      "jf",
+      "teletype",
+      "i2c",
+      "midi",
+      "hid",
+      "ext synth",
+      "other"
+    ],
+    "effects": [
+      "delay",
+      "reverb",
+      "filters",
+      "texture",
+      "pitch",
+      "glitch",
+      "perform",
+      "other"
+    ],
+    "experimental": [
+      "games",
+      "visual",
+      "audiovisual",
+      "art",
+      "novelty",
+      "other"
+    ],
+    "generative": [
+      "ambient",
+      "stochastic",
+      "simulation",
+      "data-driven",
+      "evolving",
+      "other"
+    ],
+    "mod + control": [
+      "lfo",
+      "envelope",
+      "clock",
+      "osc",
+      "network",
+      "macro",
+      "other"
+    ],
+    "samples and loops": [
+      "slicing",
+      "drum",
+      "granular",
+      "liveloop",
+      "multitrack",
+      "players",
+      "other"
+    ],
+    "sequencers": [
+      "step",
+      "shapes",
+      "euclidean",
+      "polyrhythmic",
+      "probabilistic",
+      "arpeggiators",
+      "melody",
+      "other"
+    ],
+    "synths": [
+      "playable",
+      "multitimbral",
+      "drone and texture",
+      "sample-based",
+      "noise",
+      "other"
+    ],
+    "utility": [
+      "meters",
+      "recorder",
+      "mods",
+      "library",
+      "templates",
+      "midi",
+      "other"
+    ]
+  },
+  "scripts": {}
+}

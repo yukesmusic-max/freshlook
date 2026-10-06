@@ -1,0 +1,326 @@
+# FRESHLOOK TUTORIAL -- editable slide content.
+#
+# Edit the text below any time; reload the script (or re-trigger the
+# tutorial from Functions > Show Tutorial) to see your changes.
+#
+# FORMAT
+# ------
+# Each slide starts with a line "## slide" -- slides are numbered
+# automatically in the order their "## slide" lines appear in this file,
+# so to insert, delete, or reorder a slide just move its whole block; you
+# never need to renumber anything by hand.
+#
+# Right after the "## slide" line you may add any of these control lines
+# (all optional, one per line, in any order). Stop as soon as you write a
+# line that ISN'T one of these -- everything from there to the next
+# "## slide" is the slide's body text.
+#
+# Within the body: consecutive lines with no blank line between them are
+# treated as one paragraph and re-wrapped to fit the screen automatically,
+# so you don't need to hand-wrap your sentences. A blank line forces an
+# actual line break on screen -- use it to control exactly where one
+# thought ends and the next begins.
+#
+#   k2_label: <text>      what K2's button says (default: "back")
+#   k3_label: <text>      what K3's button says (default: "proceed")
+#   k2: <action>          what K2 actually does   (default: go back one slide)
+#   k3: <action>          what K3 actually does   (default: go forward one slide)
+#   no_k2: true           hide the K2 button on this slide entirely
+#   align: left           left-align this slide's text instead of centering it
+#   outline: true          show the live category/subcategory tree (no
+#                          counts, no [empty] tags) below this slide's own
+#                          text, scrollable with E3 -- the only slide kind
+#                          that uses an encoder at all
+#
+# Available actions for k2:/k3::
+#   next              -- advance to the next slide (no label change needed)
+#   skip_next         -- advance two slides, skipping the one right after --
+#                        use this for a "No" that declines an action whose
+#                        very next slide is a "Done, ..." follow-up that
+#                        only makes sense if the action actually ran
+#   back              -- go to the previous slide
+#   end               -- end the tutorial now (same as the K1 long-press)
+#   disable_quicknav  -- turns off Quick Nav, then advances
+#   alphabetize       -- alphabetizes your favorites, then advances
+#   autosort          -- runs Auto Sort, shows its results, then advances
+#   replace_home      -- moves freshlook + blanks to the top, then advances
+#
+# A line starting with # anywhere is a comment and is ignored.
+#
+# IMPORTANT: once a slide's body text has started, don't start a line with
+# a bare "word:" (e.g. "Note: ..." as the very first line of the body) --
+# that would get misread as a control line. Safe anywhere after the first
+# body line already begun.
+
+## slide
+k2_label: No
+k2: end
+k3_label: Yes, let's learn
+Welcome to freshlook.
+
+Do you want to learn how it works? 
+
+(<5 min, I promise)
+
+## slide
+Great! 
+
+Long-press K1 any time to exit.
+
+## 
+This tutorial will open when freshlook is loaded, until you finish it or long-press K1.
+
+## slide
+The tutorial can be revisited any time in Settings > Functions.
+
+## slide
+freshlook serves as a replacement for the default browser.
+
+## slide
+here you can browse all of your scripts in a more organized way. 
+
+## slide 
+A good first step would be to make sure it appears first in your script
+list. 
+
+## slide
+freshlook can do this for you automatically.
+
+## slide
+your script selection would look like this:
+
+## slide
+align: left
+* freshlook
+
+*
+
+*
+
+*
+
+*
+
+## slide
+k2_label: No
+k2: skip_next
+k3_label: Yes
+k3: replace_home
+Would you like to move freshlook to the top of your list now?
+
+## slide
+Done. 
+
+freshlook (and some blank spacers) should now be
+at the very top.
+
+## slide
+freshlook works by reading your script list, and assigning tags to each entry.
+
+## slide
+Every script will have a category, and a sub-category.
+
+## slide
+outline: true
+This is the default organization of freshlook.
+
+vvv E3 to Scroll vvv
+
+## slide
+You'll be able to change everything about it later.
+
+## slide
+All scripts begin as unsorted > unsorted. 
+
+## slide
+you *could* go through and sort everything one at a time.
+
+
+Or...
+
+## slide
+I've developed an auto-sorting
+function for popular scripts. 
+
+## slide
+k2_label: No
+k2: next
+k3_label: Auto-Sort
+k3: autosort
+Would you like to try this? You can undo
+it later.
+
+
+## slide
+There are *3* choices on how to organize and view your script list.
+
+## slide
+- Compact -
+
+- Expanded -
+
+- Linear -
+
+## slide
+COMPACT is the default. think of it as a long outline. 
+
+## slide
+
+Scrolling down from the home screen, you'll see three sections:
+
+## slide
+align: left
+Compact / Expanded View: 
+
+- instructions
+
+- quick nav
+
+- full list
+
+## slide
+the instructions are at the top, and the first thing you'll see when loading freshlook.
+
+## slide
+you can disable them later once you've got a feel for it. 
+
+## slide
+then, the Quicknav displays all the categories that contain scripts.
+
+## slide
+Clicking into any category will
+jump to that part of the full list beneath it.
+
+## slide
+Or, just scroll down and look at the full list.
+
+## slide
+The categories are
+sorted alphabetically, and all unsorted scripts appear at the bottom.
+
+## slide
+K2 will bring you back to where you started.
+
+Clicking K2 a second time, back to the top.
+
+## slide
+k2_label: Disable Now
+k2: disable_quicknav
+You can disable quicknav if you prefer to jump into the full list
+on startup.
+
+## slide
+Later you can disable the instructions. Then, freshlook will look totally clean. 
+
+## slide
+In fact, just about everything can be enabled/disabled. 
+
+## slide
+By long-pressing K1 (2 seconds), you can view the settings. 
+
+
+(not during tutorial.) 
+
+## slide
+From the K1 Settings, you can change a few things.
+
+## slide
+align: left
+
+K1 Settings:
+
+- View
+
+- Function
+
+- Sort Scripts
+
+## slide
+The 'View' window allows you to show and hide different parts of the UI.
+
+## slide
+You can hide descriptions, empty categories, and more.
+
+## slide
+You can also change your view mode here.
+
+Try Linear, it's my favorite.
+
+## slide
+Every time you change a setting, a tool tip will appear.
+
+It will explain that setting.
+
+## slide
+You can disable the tool tips in K1 > View.
+
+## slide
+The 'Functions' settings have a couple of other controls.
+
+## slide
+It includes the scripts ran during this tutorial, and the tutorial
+itself.
+
+## slide
+You can also alphabetize your favorites, though that only applies when using the main browser.
+
+## slide
+Most importantly, the settings menu is where you can sort your scripts.
+
+## slide
+There are four options: 
+
+Auto-Sort
+
+Manual Sort
+
+Define Categories
+
+Reset Sorting
+
+## slide
+Entering 'Define Categories' will allow you to add/remove categories at
+will. 
+
+## slide
+You can delete all the categories and start from scratch if you'd like.
+
+## slide
+I strongly suggest using a USB keyboard when doing your organization.
+
+## slide
+To manually sort your scripts, enter the Manual Sort window in the Settings. 
+
+## slide
+It's a
+rather straightforward process, instructions are there.
+
+## slide
+You'll go through your scripts one at a time and assign a category, subcategory, or reject it entirely. 
+
+## slide
+If you're not familiar with your scripts, consider running them one at a time and take notes.
+
+## slide 
+you can also sort things if you're comfortable editing your JSON file. 
+
+## slide
+The rest, you'll be able to figure out.
+
+## slide
+Have a look around, get familiar with it, and make freshlook feel like home. 
+
+## slide
+Thanks for allowing me to be a part of the norns community. <3
+
+## slide
+With love, 
+
+Yukes
+
+Putuo, Shanghai, 2026
+
+## slide
+k3_label: End Tutorial
+k3: end
+This tutorial will now end, and will not load automatically again.

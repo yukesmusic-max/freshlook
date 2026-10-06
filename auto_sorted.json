@@ -1,0 +1,2232 @@
+{
+  "categories": {
+    "composition": [
+      "scales",
+      "chords",
+      "arrangement",
+      "accompany",
+      "other"
+    ],
+    "ecosystem": [
+      "grid",
+      "arc",
+      "crow",
+      "jf",
+      "teletype",
+      "i2c",
+      "midi",
+      "hid",
+      "ext synth",
+      "other"
+    ],
+    "effects": [
+      "delay",
+      "reverb",
+      "filters",
+      "texture",
+      "pitch",
+      "glitch",
+      "perform",
+      "other"
+    ],
+    "experimental": [
+      "games",
+      "visual",
+      "audiovisual",
+      "art",
+      "novelty",
+      "other"
+    ],
+    "generative": [
+      "ambient",
+      "stochastic",
+      "simulation",
+      "data-driven",
+      "evolving",
+      "other"
+    ],
+    "mod + control": [
+      "lfo",
+      "envelope",
+      "clock",
+      "osc",
+      "network",
+      "macro",
+      "other"
+    ],
+    "samples and loops": [
+      "slicing",
+      "drum",
+      "granular",
+      "liveloop",
+      "multitrack",
+      "players",
+      "other"
+    ],
+    "sequencers": [
+      "step",
+      "shapes",
+      "euclidean",
+      "polyrhythmic",
+      "probabilistic",
+      "arpeggiators",
+      "melody",
+      "other"
+    ],
+    "synths": [
+      "playable",
+      "multitimbral",
+      "drone and texture",
+      "sample-based",
+      "noise",
+      "other"
+    ],
+    "utility": [
+      "meters",
+      "recorder",
+      "mods",
+      "library",
+      "templates",
+      "midi",
+      "other"
+    ]
+  },
+  "scripts": {
+    "32-harmony": {
+      "category": "synths",
+      "description": "a 32-voice harmony generator",
+      "rejected": false,
+      "subcategory": "noise"
+    },
+    "3d": {
+      "category": "experimental",
+      "description": "pure Lua 3d lib for norns",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "4-big-knobs": {
+      "category": "utility",
+      "description": "send control voltages out of crow",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "4CCFader": {
+      "category": "utility",
+      "description": " a four channel CC MIDI fader controller for Norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "Eastwind": {
+      "category": "ecosystem",
+      "description": "A Norns instrument of non standard tuning & limitations",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "Hiswing": {
+      "category": "sequencers",
+      "description": "  a customizable pattern and groove midi generator for Monome Norns ",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "KoiBoi2": {
+      "category": "sequencers",
+      "description": "A sequencer based on fish in a pond",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "MDPatch": {
+      "category": "utility",
+      "description": " a powerful and flexible MIDI CC randomizer for the Elektron Machinedrum",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "MDScaler": {
+      "category": "utility",
+      "description": " a tonal performance utility for the Elektron Machinedrum",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "Mnmpatch": {
+      "category": "generative",
+      "description": " a patch randomizer for Elektron Monomachine",
+      "rejected": false,
+      "subcategory": "stochastic"
+    },
+    "SuperBrain": {
+      "category": "sequencers",
+      "description": "a five track sequencer with various sequencer engines per track",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "Tidbit": {
+      "category": "samples and loops",
+      "description": "Use Just Friends or a MIDI device as a 'melodic' granular synth.",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "Ygg": {
+      "category": "synths",
+      "description": "A drone engine inspired by the Lyra-8",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "_awed": {
+      "category": "synths",
+      "description": "harmonic series aggregator",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "abacus": {
+      "category": "sequencers",
+      "description": "sequence rows of beats with samples",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "acid-test": {
+      "category": "generative",
+      "description": "generative acid basslines.",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "ack": {
+      "category": "samples and loops",
+      "description": "sample player engine",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "acrostic": {
+      "category": "samples and loops",
+      "description": "chord sequencer and sampler",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "amen": {
+      "category": "samples and loops",
+      "description": "sampler and mangler of loops",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "amenbreak": {
+      "category": "samples and loops",
+      "description": "this is a dedicated amen break script with 2 knobs - amen and break.",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "animator": {
+      "category": "sequencers",
+      "description": "2D Polyphonic step sequencer for grids",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "arcify": {
+      "category": "utility",
+      "description": "map arc encoders to up to four parameters (eight with a shift key)",
+      "rejected": false,
+      "subcategory": "library"
+    },
+    "arcologies": {
+      "category": "samples and loops",
+      "description": "an interactive environment for designing 2d sound arcologies with norns and grid",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "arp_index": {
+      "category": "sequencers",
+      "description": "check stocks and make music",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "ash": {
+      "category": "samples and loops",
+      "description": "a small collection",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "ashsynth": {
+      "category": "ecosystem",
+      "description": "Norns monophonic synthesizer: dual oscillators, FM, split envelopes, clock-synced delay & reverb",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "asterion": {
+      "category": "synths",
+      "description": "adventure game as drone sequencer",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "automs70": {
+      "category": "utility",
+      "description": "automate MS-70 CDR parameters",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "avonlea": {
+      "category": "synths",
+      "description": "the Lake of Shining Waters at night",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "awake": {
+      "category": "sequencers",
+      "description": "time changes",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "awake-ashsynth": {
+      "category": "sequencers",
+      "description": "Awake dual sequencer with AshSynth \u2014 TIE legato, glide, grid",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "awake-passersby": {
+      "category": "sequencers",
+      "description": "time drifting",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "awake-rings": {
+      "category": "sequencers",
+      "description": "chimes past",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "b-b-b-b-beat": {
+      "category": "effects",
+      "description": "Beat repeater with some glitch",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "bakeneko": {
+      "category": "samples and loops",
+      "description": "a haunted drummer companion",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "barcode": {
+      "category": "samples and loops",
+      "description": "loops sounds into six lfo-modulated voices",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "barycenter": {
+      "category": "sequencers",
+      "description": "orbital motion sequencing",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "beacon": {
+      "category": "samples and loops",
+      "description": "keyboard based softcut sample mangler",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "beets": {
+      "category": "samples and loops",
+      "description": "drum loop re-sequencer",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "benjolis": {
+      "category": "synths",
+      "description": "chaotic synth",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "bistro": {
+      "category": "sequencers",
+      "description": "a presscafe remake for Norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "bitebeet": {
+      "category": "synths",
+      "description": "low-rez live coding",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "bitters": {
+      "category": "ecosystem",
+      "description": "lo-fi FM capable mono/poly",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "bline": {
+      "category": "sequencers",
+      "description": "Bline is a parametric acid-style bassline explorer.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "blippoo": {
+      "category": "synths",
+      "description": "blippoo box clone",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "blndr": {
+      "category": "effects",
+      "description": "a quantized delay with time bending effects",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "bloom": {
+      "category": "generative",
+      "description": "recreation of Eno and Chilvers' 'bloom' app",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "blue": {
+      "category": "experimental",
+      "description": "endless waves",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "boingg": {
+      "category": "sequencers",
+      "description": "a bouncing ball sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "bounds": {
+      "category": "samples and loops",
+      "description": "stereo delay/looper",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "bowering": {
+      "category": "utility",
+      "description": "crow script loader with dynamic UI generation",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "breakthrough": {
+      "category": "sequencers",
+      "description": "sequencer / game",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "buoys": {
+      "category": "samples and loops",
+      "description": "tidal influencer/activator/lightshow",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "caliper": {
+      "category": "utility",
+      "description": "v/oct calibration assistant",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "carter's delay": {
+      "category": "experimental",
+      "description": "a simple multi-tap delay for the young and young at heart",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "cc-canvas": {
+      "category": "utility",
+      "description": "fifteen midi cc sliders with slewing and recall",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "cccccccc": {
+      "category": "utility",
+      "description": "ccs for arc dials",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "changes": {
+      "category": "sequencers",
+      "description": "generate eight connected sine wave lfos and output them over midi",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "cheat_codes_2": {
+      "category": "samples and loops",
+      "description": "a sample playground",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "choukanzu": {
+      "category": "mod + control",
+      "description": "take a bird's-eye view of norns script params",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "circles": {
+      "category": "sequencers",
+      "description": "move cursor. place circles. make music",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "clarck": {
+      "category": "utility",
+      "description": "a clock for arc4 on norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "clcks": {
+      "category": "effects",
+      "description": "punch-in tempo-locked repeating",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "clipper": {
+      "category": "samples and loops",
+      "description": "slice and save samples",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "clockabout": {
+      "category": "utility",
+      "description": "A non-linear MIDI clock",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "colorwheel": {
+      "category": "sequencers",
+      "description": "harmonic performance sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "combiner": {
+      "category": "utility",
+      "description": "mod to combine multiple Grids to operate as a single device",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "compass": {
+      "category": "samples and loops",
+      "description": "asynchronous looper built around the concept of a command sequencer",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "concrete": {
+      "category": "samples and loops",
+      "description": "virtual tape lab",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "constellations": {
+      "category": "sequencers",
+      "description": "scan the stars; make music! an interactive sequencer for Norns, Crow, JF, and midi.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "corners": {
+      "category": "generative",
+      "description": "a grid controlled physics instrument. ported from tehn's m4l script",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "cranes": {
+      "category": "samples and loops",
+      "description": "stereo varispeed looper / delay / timeline-smoosher",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "crow-studies": {
+      "category": "utility",
+      "description": "crow examples",
+      "rejected": false,
+      "subcategory": "templates"
+    },
+    "crow_talk": {
+      "category": "synths",
+      "description": "talk to crow with norns",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "cryptkeeper": {
+      "category": "utility",
+      "description": "Create and edit crypts for arcologies",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "cybermidi": {
+      "category": "utility",
+      "description": "mod to send MIDI notes between Norns over IP",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "cyrene": {
+      "category": "samples and loops",
+      "description": "a drum sequencer based on Mutable Instruments Grids",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "d": {
+      "category": "effects",
+      "description": "distort, destroy, downsample and disintegrate",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "delar": {
+      "category": "samples and loops",
+      "description": "always looping sample player",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "delayyyyyyyy": {
+      "category": "effects",
+      "description": "warm delay with modulation and stereo separation",
+      "rejected": false,
+      "subcategory": "delay"
+    },
+    "delinquencer": {
+      "category": "sequencers",
+      "description": "a sequencer but with a mind of its own",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "demoncore": {
+      "category": "synths",
+      "description": "a simple noise module but with a mind of its own",
+      "rejected": false,
+      "subcategory": "noise"
+    },
+    "descartes": {
+      "category": "sequencers",
+      "description": "a cartesian sequencer for grid",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "dimension-expander": {
+      "category": "effects",
+      "description": "stereo spreader fx for norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "downtown": {
+      "category": "samples and loops",
+      "description": "record stereo loops while engine loops",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "dreamsequence": {
+      "category": "synths",
+      "description": "chord-based sequencer, arpeggiator, and harmonizer for norns + grid",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "drift": {
+      "category": "sequencers",
+      "description": "drifting relationships creating sequences",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "dronecaster": {
+      "category": "synths",
+      "description": "cast drones & record whatever returns",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "drum_room": {
+      "category": "samples and loops",
+      "description": "midi-controlled drum kits",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "duatone": {
+      "category": "utility",
+      "description": "two-voice tone generator for oscilloscope and Lissajous visualization",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "dunes": {
+      "category": "sequencers",
+      "description": "a function sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "easygrain": {
+      "category": "samples and loops",
+      "description": "a simple granulator, now with optional arc support",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "eels": {
+      "category": "samples and loops",
+      "description": "dual delay / comb filter",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "ekombi": {
+      "category": "sequencers",
+      "description": "polyrhythmic sequencer/sampler using ack",
+      "rejected": false,
+      "subcategory": "polyrhythmic"
+    },
+    "endless-stairs": {
+      "category": "sequencers",
+      "description": "shepard tone generator",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "esper": {
+      "category": "sequencers",
+      "description": "an image sonifier",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "eterna": {
+      "category": "samples and loops",
+      "description": " six-voice sampler and sequencer",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "euclidigons": {
+      "category": "sequencers",
+      "description": "geometric rhythm generator",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "faeng": {
+      "category": "sequencers",
+      "description": "faeng is a sequencer. inspired by kria. powered by timber.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "fall": {
+      "category": "sequencers",
+      "description": "autumnal generative synth with midi and crow sequencing",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "fiahod": {
+      "category": "generative",
+      "description": "i will show you fear in a handful of dust",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "fibonacci": {
+      "category": "sequencers",
+      "description": "a sequencer that travels through numbers and time",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "firstlight": {
+      "category": "utility",
+      "description": "study zero",
+      "rejected": false,
+      "subcategory": "templates"
+    },
+    "fixed-filter-banking-crisis": {
+      "category": "effects",
+      "description": "a fixed filter bank",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "fledge": {
+      "category": "utility",
+      "description": "crow firmware updater",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "flora": {
+      "category": "sequencers",
+      "description": "l-systems sequencer and bandpass-filtered sawtooth engine",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "fm7": {
+      "category": "ecosystem",
+      "description": "polyphonic 6 operator fm synth",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "folio": {
+      "category": "utility",
+      "description": "browse downloadable scripts from the comfort of your norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "footfoot": {
+      "category": "samples and loops",
+      "description": "my pal",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "forge": {
+      "category": "sequencers",
+      "description": "a playable  oscilloscope for norns and crow",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "foulplay": {
+      "category": "samples and loops",
+      "description": "euclidean rhythms with logic and probability",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "foundry": {
+      "category": "utility",
+      "description": "Font / glyph catalog",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "fugarc": {
+      "category": "sequencers",
+      "description": "fugu meets awake sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "fugu": {
+      "category": "sequencers",
+      "description": "multi playhead sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "gematria": {
+      "category": "sequencers",
+      "description": "organized electricty with norns & crow",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "gemini": {
+      "category": "samples and loops",
+      "description": "twin granulators. watch them race.",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "get in the sea!": {
+      "category": "ecosystem",
+      "description": "your norns plays Terry Riley's In C",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "giro": {
+      "category": "samples and loops",
+      "description": "performance oriented (a)sync looper",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "glaciers": {
+      "category": "effects",
+      "description": "extreme sound stretcher and harmoniser",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "glitchlets": {
+      "category": "effects",
+      "description": "lets glitch with glitchlets.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "glitchlooper": {
+      "category": "samples and loops",
+      "description": "5 unsynchronized loops with an auto mode",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "glut": {
+      "category": "samples and loops",
+      "description": "granular synth inspired by mlr/rove, grainfields 20 and loomer cumulus",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "goldeneye": {
+      "category": "ecosystem",
+      "description": "entropic background radiation",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "grains": {
+      "category": "samples and loops",
+      "description": "A six-voice granular looper",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "graintopia": {
+      "category": "samples and loops",
+      "description": "three lands with six grains",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "granchild": {
+      "category": "samples and loops",
+      "description": "quantized granular sequencer",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "grd": {
+      "category": "sequencers",
+      "description": "a model of sonic behaviour",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "grendy": {
+      "category": "ecosystem",
+      "description": "simple drone synth, grendel drone commander inspired",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "greyhole": {
+      "category": "effects",
+      "description": "echo / delay",
+      "rejected": false,
+      "subcategory": "delay"
+    },
+    "grid-test": {
+      "category": "utility",
+      "description": "A utility script for testing grids",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "gridofpoints": {
+      "category": "generative",
+      "description": "sixteen notes, seven timbres",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "gridofrings": {
+      "category": "ecosystem",
+      "description": "A Karper-esque take on Duncan Geere's gridofpoints",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "gridstep": {
+      "category": "sequencers",
+      "description": "16 track isomorphic grid sequencer for timber and midi",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "groovecats": {
+      "category": "sequencers",
+      "description": "physics based sequencer for people who like cats",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "grurder": {
+      "category": "sequencers",
+      "description": "generative dual-voice MIDI sequencer with Euclidean rhythms and Turing Machine melodies",
+      "rejected": false,
+      "subcategory": "euclidean"
+    },
+    "hachi": {
+      "category": "samples and loops",
+      "description": "euclidean drum machine emulating the TR-808 sound",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "hands": {
+      "category": "generative",
+      "description": "A piano player.",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "haven": {
+      "category": "synths",
+      "description": "a safe space?",
+      "rejected": false,
+      "subcategory": "noise"
+    },
+    "haze": {
+      "category": "samples and loops",
+      "description": "four track live granular looper",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "here-there": {
+      "category": "samples and loops",
+      "description": "the sound begins here but you began there",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "hid_demo": {
+      "category": "utility",
+      "description": "demo scripts for hid functionality",
+      "rejected": false,
+      "subcategory": "templates"
+    },
+    "hpns": {
+      "category": "sequencers",
+      "description": "probablistic step sequencer for modular. its basically parc",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "hs010": {
+      "category": "sequencers",
+      "description": "Bass and lead voice with a multi-playhead sequencer.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "icarus": {
+      "category": "ecosystem",
+      "description": "supersaw synth with feedback",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "iiitoii": {
+      "category": "mod + control",
+      "description": " a collection of iii community scripts ported to norns + crow ",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "impact": {
+      "category": "samples and loops",
+      "description": "drum machine based on arturia's drumbrute impact",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "ingenue": {
+      "category": "utility",
+      "description": "responsive browser ui for norns. runs on the device alongside maiden.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "initenere": {
+      "category": "sequencers",
+      "description": "2-dimensional polyrythmic, random note sequencer.",
+      "rejected": false,
+      "subcategory": "probabilistic"
+    },
+    "internorns": {
+      "category": "utility",
+      "description": "a live-coding environment",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "interpret": {
+      "category": "utility",
+      "description": "just-interpret-engine",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "intervaltrainer": {
+      "category": "utility",
+      "description": "interval trainer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "islands": {
+      "category": "samples and loops",
+      "description": "fm7, earthsea, kria, looper",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "isoseq": {
+      "category": "sequencers",
+      "description": "isomorphic sequencer for norns and grid",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "jala": {
+      "category": "sequencers",
+      "description": "ambient random sequencer",
+      "rejected": false,
+      "subcategory": "probabilistic"
+    },
+    "jiffy": {
+      "category": "samples and loops",
+      "description": "16 second looper",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "just-play": {
+      "category": "utility",
+      "description": "play just friends with midi",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "justharmonicon": {
+      "category": "sequencers",
+      "description": "subharmonic sequencer for jf",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "kolor": {
+      "category": "samples and loops",
+      "description": "grid-based sample sequencer",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "kreislauf": {
+      "category": "samples and loops",
+      "description": "beat sequencing rund um den kreis ",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "kria_midi": {
+      "category": "sequencers",
+      "description": "port of kria from ansible",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "krill": {
+      "category": "generative",
+      "description": "a Lorenz system sequencer and mod matrix with a physical modelling synthesis engine",
+      "rejected": false,
+      "subcategory": "evolving"
+    },
+    "l_ll__l_": {
+      "category": "generative",
+      "description": "interact with a musical emission spectrum",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "lamellae": {
+      "category": "sequencers",
+      "description": "a music box inspired generative instrument/sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "lamination": {
+      "category": "sequencers",
+      "description": "substitution sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "larc": {
+      "category": "samples and loops",
+      "description": "looper/delay",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "lemniscate": {
+      "category": "samples and loops",
+      "description": "an 8-track-cassette-inspired looper",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "leslie": {
+      "category": "effects",
+      "description": "doppler, tremolo, and the slow spin-up",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "less-concepts": {
+      "category": "sequencers",
+      "description": "1d cellular automata sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "lissadron": {
+      "category": "generative",
+      "description": "seeding fields forever",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "loom": {
+      "category": "sequencers",
+      "description": "pattern weaving sequencer for grids",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "lorenz": {
+      "category": "experimental",
+      "description": "strange attractors for crow",
+      "rejected": false,
+      "subcategory": "novelty"
+    },
+    "lorenzos-drums": {
+      "category": "samples and loops",
+      "description": "an electroacoustic drumset and sequencer",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "loudnumbers_norns": {
+      "category": "sequencers",
+      "description": "data sonification for norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "luck": {
+      "category": "sequencers",
+      "description": "probabilistic sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "m18s": {
+      "category": "sequencers",
+      "description": "a sequencer based on the RYK M-185",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "magnetar": {
+      "category": "synths",
+      "description": "polyphonic pulsar synthesizer",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "magpie": {
+      "category": "ecosystem",
+      "description": "signal routing and modulated note echo for midi and cv",
+      "rejected": false,
+      "subcategory": "crow"
+    },
+    "makebreakbeat": {
+      "category": "samples and loops",
+      "description": "make breakbeats from samples",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "mangl": {
+      "category": "samples and loops",
+      "description": "a 7 track granular sample player",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "manifold": {
+      "category": "effects",
+      "description": "multi-effects processing for live performance",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "marcovaldo": {
+      "category": "sequencers",
+      "description": "spatial sequencer with cats",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "massif": {
+      "category": "effects",
+      "description": "8 band resonator",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "meadowphysics": {
+      "category": "samples and loops",
+      "description": "grid-enabled rhizomatic cascading counter",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "metrix": {
+      "category": "sequencers",
+      "description": "it's like metropolix for norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "metronome": {
+      "category": "synths",
+      "description": "bing, buk, buk, buk",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "midarto": {
+      "category": "synths",
+      "description": "two-deck MIDI file DJ: mix .mid files with a crossfader to General MIDI modules or nb voices, with a full 16x8 grid controller",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "midi-monitor": {
+      "category": "utility",
+      "description": "A MIDI monitor for norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "midi-review": {
+      "category": "utility",
+      "description": "Simple visualisation, recording and playback of MIDI notes",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "midididi": {
+      "category": "samples and loops",
+      "description": "midi cc looper mod",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "midigrid": {
+      "category": "utility",
+      "description": "Use launchpads and other midi grid devices w/ Norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "midiplayer": {
+      "category": "ecosystem",
+      "description": "midi file playback for norns",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "mlr": {
+      "category": "samples and loops",
+      "description": "live sample-cutting platform",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "mlre": {
+      "category": "samples and loops",
+      "description": "extended version of mlr",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "molly_the_poly": {
+      "category": "ecosystem",
+      "description": "classic polysynth with solar system patch creator",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "moln": {
+      "category": "synths",
+      "description": "polyphonic subtractive synthesizer",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "monitor": {
+      "category": "utility",
+      "description": "small kit of midi utilities to transpose and route midi messages",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "monomaniac": {
+      "category": "utility",
+      "description": "A mod to toggle stereo and mono input",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "moonraker": {
+      "category": "samples and loops",
+      "description": "explore a galaxy of rhythm",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "mosaic": {
+      "category": "synths",
+      "description": "enabling you to craft complex rhythms and harmonies effortlessly",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "mouse": {
+      "category": "synths",
+      "description": "sound maker and sequencer heavily inspired by Laurie Spiegel's Music Mouse",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "mx.samples": {
+      "category": "ecosystem",
+      "description": "like mr.radar or mr.coffee but for samples",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "mx.synths": {
+      "category": "ecosystem",
+      "description": "like mr.radar or mr.coffee but for synths",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "n.kria": {
+      "category": "synths",
+      "description": "native norns Kria",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "n16o": {
+      "category": "utility",
+      "description": "i2c-based ER-301 control via KORG nanoKONTROL2",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "nameless-nightmare": {
+      "category": "samples and loops",
+      "description": "A Norns granular synthesizer, inspired by solar system.",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "narf": {
+      "category": "sequencers",
+      "description": "quad sequential midi source with fractional durations",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "nb_drumcrow": {
+      "category": "samples and loops",
+      "description": "norns mod that turns crow into a synth using nb",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "nb_mxsynths": {
+      "category": "synths",
+      "description": "mx.synths as an nb player",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "nb_plyprc": {
+      "category": "synths",
+      "description": "a norns classic as nb player",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "nb_smpKit": {
+      "category": "samples and loops",
+      "description": "sample playback as an nb player",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "nc01-drone": {
+      "category": "experimental",
+      "description": "norns/circle/01 drone in three worlds",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "nc02-rs": {
+      "category": "experimental",
+      "description": "norns/circle/02 rhythm and sound",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "nc03-ds": {
+      "category": "experimental",
+      "description": "norns/circle/03 dressed in sequins",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "ndls": {
+      "category": "samples and loops",
+      "description": "4-track modeless tape looper, delay, & sampler",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "nice-tapes": {
+      "category": "mod + control",
+      "description": "a norns mod for customised tape names",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "nisp": {
+      "category": "sequencers",
+      "description": "scheme dialect livecoding tracker for norns",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "nmMelodyMagic": {
+      "category": "sequencers",
+      "description": "a port of ken stone's infinite melody and modulo magic cgs serge modules",
+      "rejected": false,
+      "subcategory": "melody"
+    },
+    "nmQuadroDubber": {
+      "category": "samples and loops",
+      "description": "overdub external audio onto four tape loops",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "nmRain": {
+      "category": "effects",
+      "description": "a weird stereo delay effect for external audio",
+      "rejected": false,
+      "subcategory": "delay"
+    },
+    "nmSmartyPants": {
+      "category": "samples and loops",
+      "description": "deform external audio with math and impress your nerd friends",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "noize": {
+      "category": "ecosystem",
+      "description": "noize is a little synth to make some noise - simple as that!",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "noizeop": {
+      "category": "ecosystem",
+      "description": "Four oscillators, six algorithms to mix and mangle.",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "norman": {
+      "category": "utility",
+      "description": "simple audio utility",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "norns.online": {
+      "category": "utility",
+      "description": "remotely control norns from the browser",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "nornsfetch": {
+      "category": "experimental",
+      "description": "neofetch style system info for norns",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "nydl": {
+      "category": "samples and loops",
+      "description": "beat-synced looper, slicer, and sequencer",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "n\u00f8rg\u00e5rd": {
+      "category": "sequencers",
+      "description": "A small library to generate N\u00f8rg\u00e5rd infinity sequences for Norns",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "o-o-o": {
+      "category": "sequencers",
+      "description": "connect-the-dots sequencer w/ fm synthesizer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "oblique": {
+      "category": "mod + control",
+      "description": "a mod to insert oblique strategies into the params menu",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "oilcan": {
+      "category": "samples and loops",
+      "description": "monophonic digital-style percussion voice",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "onehanded": {
+      "category": "utility",
+      "description": "minimal manual controller script",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "ong": {
+      "category": "experimental",
+      "description": "ocean noise generator",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "oooooo": {
+      "category": "samples and loops",
+      "description": "digital tape loops, x 6",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "orbital": {
+      "category": "sequencers",
+      "description": "orbital is an experiment in simple sequences and interface design",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "orca": {
+      "category": "sequencers",
+      "description": "visual programming language, designed to create procedural sequencers on the fly",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "orgn": {
+      "category": "effects",
+      "description": " 3-operator FM synth + fx for norns ",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "orgnwrms": {
+      "category": "samples and loops",
+      "description": "orgn + wrms",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "ortf": {
+      "category": "samples and loops",
+      "description": "Sort of Radio music clone where each audio file in tape folder is a station",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "otis": {
+      "category": "samples and loops",
+      "description": "dual tape delay/looper/sampler",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "overtones": {
+      "category": "synths",
+      "description": "a synth based on additive synthesis",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "overwintering": {
+      "category": "generative",
+      "description": "Bird migration patterns as sound",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "p8": {
+      "category": "experimental",
+      "description": "run PICO-8 tweetcarts on norns",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "paracosms": {
+      "category": "sequencers",
+      "description": "sampler + tracker to construct imaginary worlds",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "paranibbles": {
+      "category": "sequencers",
+      "description": "paranibbles for paradiddles",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "parrot": {
+      "category": "ecosystem",
+      "description": "cv recorder and player for norns+crow",
+      "rejected": false,
+      "subcategory": "crow"
+    },
+    "passersby": {
+      "category": "ecosystem",
+      "description": "west coast style mono synth",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "passthrough": {
+      "category": "utility",
+      "description": "midi passthrough library with examples",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "patchwork": {
+      "category": "sequencers",
+      "description": "dual function sequencer for monome norns, crow and grid",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "path-trace": {
+      "category": "utility",
+      "description": "A movement recorder for norns and crow",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "pedalboard": {
+      "category": "effects",
+      "description": "chainable effects for live performance",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "phonotype": {
+      "category": "synths",
+      "description": "livecoding environment",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "phyllis": {
+      "category": "effects",
+      "description": "a digitally modeled analog filter",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "pirate-radio": {
+      "category": "experimental",
+      "description": "community radio for monome norns...yar",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "pit-orchisstra": {
+      "category": "synths",
+      "description": "snake game inspired sequencer for norns",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "pitfalls": {
+      "category": "utility",
+      "description": "microtonal scale explorer / arpeggiator / grid keyboard",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "pitter-patter": {
+      "category": "samples and loops",
+      "description": "sequencer and sampler player based around the OP-1 'pattern' sequencer",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "piwip": {
+      "category": "samples and loops",
+      "description": "a sampler that works in realtime",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "pixels": {
+      "category": "sequencers",
+      "description": "generative visual sequencer instrument",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "plasma": {
+      "category": "experimental",
+      "description": "function animator",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "plonky": {
+      "category": "synths",
+      "description": "string-like keyboard and sequencer",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "pools": {
+      "category": "effects",
+      "description": "a shimmery reverb",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "ppm_norns": {
+      "category": "synths",
+      "description": "parts per million",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "punchcard": {
+      "category": "sequencers",
+      "description": "an experimental sequencer that works a bit like the classic punchcard computer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "qfwfq": {
+      "category": "sequencers",
+      "description": "A brute-force password hack inspired sequencer.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "quence": {
+      "category": "sequencers",
+      "description": "probabilistic 4-track sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "r": {
+      "category": "utility",
+      "description": "general purpose audio patching engine",
+      "rejected": false,
+      "subcategory": "library"
+    },
+    "rachim": {
+      "category": "synths",
+      "description": "a five-piece orchestra sequence synthesizer",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "raft": {
+      "category": "effects",
+      "description": "a scene-setting, softcut-based modulated delay and noise generator",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "raindrops": {
+      "category": "sequencers",
+      "description": "generative melodies complete with lo-fi effects",
+      "rejected": false,
+      "subcategory": "melody"
+    },
+    "randomizer_typhon": {
+      "category": "utility",
+      "description": "Randomizer for Dreadbox Typhon",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "rangl": {
+      "category": "samples and loops",
+      "description": "arc based granular four track sampler with live recording and friction.",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "rebound": {
+      "category": "sequencers",
+      "description": "a kinetic sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "reels": {
+      "category": "samples and loops",
+      "description": "a 4-track asynchronous looper, inspired by op-1 tape recorder and mannequins w/ eurorack module.",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "repeater": {
+      "category": "samples and loops",
+      "description": "textural delay orchestra with multiple tempo-synced lines. port of the original by Bryant Smith.",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "repl-looper": {
+      "category": "samples and loops",
+      "description": "mash of REPL and looper; a live performance code sequencer",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "ribbons": {
+      "category": "sequencers",
+      "description": "folded euclidean arpeggiator",
+      "rejected": false,
+      "subcategory": "euclidean"
+    },
+    "rpls": {
+      "category": "samples and loops",
+      "description": "varispeed multitap echo",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "rpmate": {
+      "category": "samples and loops",
+      "description": "record a sound an play it back at various RPM ratios",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "rudiments": {
+      "category": "samples and loops",
+      "description": "an 8 voice lofi percussion synthesizer and sequencer",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "sam": {
+      "category": "samples and loops",
+      "description": "a simple sample recorder/slicer",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "sampswap": {
+      "category": "samples and loops",
+      "description": "swap samples within loops",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "samsara": {
+      "category": "samples and loops",
+      "description": "a minimalist clock-synced looper",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "samthree": {
+      "category": "samples and loops",
+      "description": "3 voice looper based on samsara",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "sath-lemon": {
+      "category": "samples and loops",
+      "description": "4 voice live looper with dynamic loop control and grid visualization",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "schicksalslied": {
+      "category": "synths",
+      "description": "a poetry sequencer",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "scholastic": {
+      "category": "synths",
+      "description": "multitrack polyrhythmic sequencer",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "scryingstone": {
+      "category": "synths",
+      "description": "scrying stone for monome norns",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "seaflex": {
+      "category": "utility",
+      "description": "companion app for earthsea",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "seeker_ii": {
+      "category": "mod + control",
+      "description": "compositional interface for music, voltage, and video",
+      "rejected": false,
+      "subcategory": "osc"
+    },
+    "semiconductor": {
+      "category": "utility",
+      "description": "norns ensemble mod",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "sempra": {
+      "category": "sequencers",
+      "description": "continuous dynamic melody sequencer for 16n+grid",
+      "rejected": false,
+      "subcategory": "melody"
+    },
+    "serialism": {
+      "category": "ecosystem",
+      "description": "Explore serialism in the spirit of Arnold Sch\u00f6nberg and others",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "shapes": {
+      "category": "utility",
+      "description": "visuals-based modulation source for crow and midi",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "shfts": {
+      "category": "sequencers",
+      "description": "random sequencer for norns, crow, and grid",
+      "rejected": false,
+      "subcategory": "probabilistic"
+    },
+    "shnthsalslied": {
+      "category": "synths",
+      "description": "fork of schicksalslied for use with shbobo shnth",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "showers": {
+      "category": "experimental",
+      "description": "a thunderstorm for norns",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "sidvagn": {
+      "category": "synths",
+      "description": "a creative canvas for a sidecar grid",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "silos": {
+      "category": "samples and loops",
+      "description": "live grains",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "sines": {
+      "category": "synths",
+      "description": "16 sine waves",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "skylines": {
+      "category": "sequencers",
+      "description": "a sequencer inspired on the M185/Intellijel Metropolis",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "smash": {
+      "category": "samples and loops",
+      "description": "sequencer for apes",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "softcut-studies": {
+      "category": "utility",
+      "description": "softcut examples",
+      "rejected": false,
+      "subcategory": "templates"
+    },
+    "sonde": {
+      "category": "synths",
+      "description": "orbital sequencer for low-res earth",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "spirals": {
+      "category": "sequencers",
+      "description": "sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "splicer": {
+      "category": "utility",
+      "description": "an eduscript for sequins and lattice",
+      "rejected": false,
+      "subcategory": "templates"
+    },
+    "splnkr": {
+      "category": "samples and loops",
+      "description": "an amplitude and frequency tracking effects processor/sampler/sequencer",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "stack": {
+      "category": "effects",
+      "description": "a stack of 8 fixed-frequency resonant bandpass filters",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "step": {
+      "category": "samples and loops",
+      "description": "a simple step sequencer",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "stj\u00f6rnu\u00ed\u00fer\u00f3tt": {
+      "category": "synths",
+      "description": "drone inspired by Moffenzeef Stargazer",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "streams": {
+      "category": "sequencers",
+      "description": "a multi play head sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "strides": {
+      "category": "samples and loops",
+      "description": "a collection of pattern recorders",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "strum": {
+      "category": "sequencers",
+      "description": "a plucky little pattern sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "stwnsh": {
+      "category": "samples and loops",
+      "description": "a clocked, three-track stereo audio mangler",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "supertonic": {
+      "category": "samples and loops",
+      "description": "an introspective drum machine",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "sway": {
+      "category": "generative",
+      "description": "analysis-driven live audio processing",
+      "rejected": false,
+      "subcategory": "ambient"
+    },
+    "sweet bees": {
+      "category": "samples and loops",
+      "description": "asynchronous tape looper and reverb",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "synthy": {
+      "category": "sequencers",
+      "description": "a synthesizer critter",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "takt": {
+      "category": "sequencers",
+      "description": "parameter locking step sequencer",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "tambla": {
+      "category": "sequencers",
+      "description": "bending rhythmic arpeggio",
+      "rejected": false,
+      "subcategory": "arpeggiators"
+    },
+    "tapedeck": {
+      "category": "effects",
+      "description": "live tape deck emulation (saturation, distortion, wow/flutter)",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "taweeet": {
+      "category": "experimental",
+      "description": "Bird song, and lots of it. And pics, too.",
+      "rejected": false,
+      "subcategory": "art"
+    },
+    "tetra": {
+      "category": "sequencers",
+      "description": "use the grid to create, perform and sequence sound objects",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "tetrabobo": {
+      "category": "synths",
+      "description": "triangle wave organ with variable slope for norns & shbobo shnth",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "tetrabotis": {
+      "category": "synths",
+      "description": "tetrabobo + otis = tetrabotis",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "thebangs": {
+      "category": "synths",
+      "description": "one-shot synthesis engine",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "thirtythree": {
+      "category": "sequencers",
+      "description": "sample + sequencer + splicer in the style of po-33",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "thorns": {
+      "category": "sequencers",
+      "description": "fractal sequencer for norns + grid",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "timber": {
+      "category": "samples and loops",
+      "description": "sample player engine and scripts",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "time-rhythm": {
+      "category": "samples and loops",
+      "description": "duophonic synthesizer for norns",
+      "rejected": false,
+      "subcategory": "drum"
+    },
+    "timeparty": {
+      "category": "effects",
+      "description": "grid based delay sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "tmi": {
+      "category": "utility",
+      "description": "library for sequencing midi with text",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "torii": {
+      "category": "sequencers",
+      "description": "gated audio sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "traffic": {
+      "category": "sequencers",
+      "description": "edit of @markeats loom for quickly decoupling motifs from their harmonic framework",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "triangles": {
+      "category": "synths",
+      "description": "4-voice triangle wave drone synth",
+      "rejected": false,
+      "subcategory": "playable"
+    },
+    "tulpamancer": {
+      "category": "sequencers",
+      "description": "Every night, the kingdom crumbles. And our MIDI pattern, is conjured anew.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "tuner": {
+      "category": "utility",
+      "description": "tune stuff",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "tunnels": {
+      "category": "effects",
+      "description": "a collection of uncertain delays using norns softcut",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "turntable": {
+      "category": "samples and loops",
+      "description": "a turntable for norns",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "tviburar": {
+      "category": "sequencers",
+      "description": "2x4 complex step sequencer w. free running lfo's",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "twine": {
+      "category": "samples and loops",
+      "description": "random granulator for two samples",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "twins": {
+      "category": "samples and loops",
+      "description": "randomized dual granular playground, inspired by twine",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "u": {
+      "category": "utility",
+      "description": "norns utility scripts",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "ufo": {
+      "category": "synths",
+      "description": "ultra-low frequency oscillator powered by the international space station",
+      "rejected": false,
+      "subcategory": "drone and texture"
+    },
+    "uhf": {
+      "category": "samples and loops",
+      "description": "your tapes transmitted thru late-night static and broken antenna frequencies",
+      "rejected": false,
+      "subcategory": "granular"
+    },
+    "vcr": {
+      "category": "ecosystem",
+      "description": "collect and recall voltages",
+      "rejected": false,
+      "subcategory": "grid"
+    },
+    "vials": {
+      "category": "samples and loops",
+      "description": "4 track performance-oriented sample sequencer",
+      "rejected": false,
+      "subcategory": "players"
+    },
+    "vinker": {
+      "category": "effects",
+      "description": "Jaap Vink inspired recursive sound instrument.",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "warmreload": {
+      "category": "mod + control",
+      "description": "a norns mod to automatically reload a script after saving",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "waver": {
+      "category": "utility",
+      "description": "assemble a song from TAPE",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "window-crowparator": {
+      "category": "ecosystem",
+      "description": "Window comparator for crow",
+      "rejected": false,
+      "subcategory": "crow"
+    },
+    "wobblewobble": {
+      "category": "utility",
+      "description": "slow oscillators for crow",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "wrms": {
+      "category": "samples and loops",
+      "description": "dual asyncronous time-wigglers / echo loopers",
+      "rejected": false,
+      "subcategory": "liveloop"
+    },
+    "xD1": {
+      "category": "ecosystem",
+      "description": "xD1 is an FM synth",
+      "rejected": false,
+      "subcategory": "midi"
+    },
+    "yggdrasil": {
+      "category": "sequencers",
+      "description": "a norns cyberdeck tracker",
+      "rejected": false,
+      "subcategory": "step"
+    },
+    "zellen": {
+      "category": "sequencers",
+      "description": "game of life based sequencer",
+      "rejected": false,
+      "subcategory": "other"
+    },
+    "zxcvbn": {
+      "category": "sequencers",
+      "description": "a tracker",
+      "rejected": false,
+      "subcategory": "step"
+    }
+  }
+}
